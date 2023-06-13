@@ -64,3 +64,6 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 ## Run Server
 php spark serve
+
+## MySQL Server Start (Docker)
+docker run --name local-mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql:8.0.33
