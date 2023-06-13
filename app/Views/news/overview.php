@@ -14,3 +14,7 @@
     <h3>No News</h3>
     <p>Unable to find any news for you.</p>
 <?php endif ?>
+
+<hr>
+<a href="/news/create">Go to create page</a>
+<hr>
